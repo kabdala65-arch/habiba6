@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react'
 import { motion } from 'framer-motion'
 import './CounterSection.css'
 
-const BIRTHDAY = new Date('2026-07-27T00:00:00')
+const BIRTHDAY = new Date('2026-10-01T00:00:00')
 
 function getCountdown() {
   const diffMs = Math.max(0, BIRTHDAY - new Date())
@@ -32,7 +32,7 @@ export default function CounterSection() {
   return (
     <section className="counter-section">
       <motion.div className="section-header" initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.8 }}>
-        <span className="section-tag">27 / 7 / 2026</span>
+        <span className="section-tag">1 / 10 / 2026</span>
         <h2 className="section-title">العد التنازلي لعيد ميلاد حبيبة</h2>
         <p className="section-subtitle">كل ثانية بتقرّبنا من يوم ميلاد أجمل واحدة في الدنيا ♥</p>
       </motion.div>

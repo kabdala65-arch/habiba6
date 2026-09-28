@@ -50,7 +50,7 @@ export default function HeroSection() {
         animate={{ opacity: 1 }}
         transition={{ duration: 1, delay: 1.1 }}
       >
-        27 / 7 / 2026
+        1 / 10 / 2026
       </motion.div>
 
       <motion.div
